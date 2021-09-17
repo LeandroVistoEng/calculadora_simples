@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Calculator🧮</title>
+  <link rel="shortcut icon" href="Imagens/favicon.ico">
+
+  <!--Google Fonts-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;700;800;900&family=Ubuntu:wght@300;400&display=swap" rel="stylesheet">
+
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+  <!-- Bootstrap -->
+  <link href="bootstrap-5.1.0-dist/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- JavaScript -->
+  <script src="js/script.js"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <h1>Calculadora de juros simples</h1>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <form class="" action="index.html" method="post">
+          <div class="form-group mt-3">
+            <label class="form-group">Principal</label>
+            <input class="form-control" type="text" name="" id="principal">
+          </div>
+
+          <div class="form-group mt-3">
+            <label class="form-group">Ano</label>
+            <input class="form-control" type="text" name="" id="ano">
+          </div>
+
+          <div class="form-group mt-3">
+            <label class="form-group">Taxa de interesse</label>
+            <input class="form-control" type="text" name="" id="taxa">
+          </div>
+
+          <div class="d-grid gap-2 mt-3">
+            <button class="btn btn-primary" type="button" onclick="calculate()">Calcular</button>
+          </div>
+
+        </form>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-12">
+        <h1 id="res">$</h1>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <!-- jQuery (plugins JavaScript do Bootstrap) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Bootstrap (plugins JavaScript do Bootstrap) -->
+  <script src="bootstrap-5.1.0-dist/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
